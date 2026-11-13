@@ -1,0 +1,19 @@
+# ShopSphere runtime configuration (environment variables override these defaults)
+paths:
+  data_raw: data/raw
+  data_processed: data/processed
+  artifacts: artifacts
+
+rolling:
+  snapshots: 12
+  mlp_seeds: "42"
+  max_epochs: 10
+  window_days: 30
+
+offer:
+  validation_days: 30
+
+planning:
+  country: US
+  objective: incremental_revenue
+  cooldown_days: 14
