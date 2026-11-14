@@ -1,6 +1,7 @@
 # ShopSphere runtime configuration (environment variables override these defaults)
 paths:
   data_raw: data/raw
+  data_clean: data/clean
   data_processed: data/processed
   artifacts: artifacts
 

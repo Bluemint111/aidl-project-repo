@@ -1,0 +1,8 @@
+"offer_code","description","offer_type","value","eligible_tiers","counts_toward_monthly_limit","requires_promotable_items_clean"
+"OFF-FS","Free express shipping on next order","Shipping",6.0,"All",1,"TRUE"
+"OFF-V10","10% voucher, min spend $40, valid 14 days","Voucher",0.1,"All",1,"TRUE"
+"OFF-V15","15% voucher, min spend $60, valid 14 days","Voucher",0.15,"Silver,Gold,Platinum",1,"TRUE"
+"OFF-V20","20% voucher, min spend $100, valid 14 days","Voucher",0.2,"Platinum",1,"TRUE"
+"OFF-PTS2","Double loyalty points for 30 days","Points",3.0,"Gold,Platinum",1,"FALSE"
+"OFF-SRC","Service-recovery credit $10 (after a confirmed service failure)","Credit",10.0,"All",1,"FALSE"
+"OFF-NONE","No incentive: personalised reminder only","No offer",0.0,"All",0,"FALSE"

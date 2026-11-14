@@ -6,3 +6,16 @@ venv/
 .pytest_cache/
 .ipynb_checkpoints/
 .streamlit/
+data/processed/
+# Large source file (>100 MB) is split into data/clean/shopsphere_sessions_cleaned_part*.csv
+data/clean/shopsphere_sessions_cleaned.csv
+artifacts/*
+# Keep the Week 8 submission and checkpoint report as deliverables.
+!artifacts/outputs/
+artifacts/outputs/*
+!artifacts/outputs/submission.csv
+!artifacts/reports/
+artifacts/reports/*
+!artifacts/reports/fixed/
+artifacts/reports/fixed/*
+!artifacts/reports/fixed/Week8_model_report.md
